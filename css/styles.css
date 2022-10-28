@@ -57,7 +57,7 @@ html body a {
         margin: 20px;
     }
 
-    /* main mobile */
+    /* pagina index resolucion 70px*/
     .main__index {
         height: fit-content;
         width: 100%;
@@ -134,7 +134,7 @@ html body a {
         text-decoration: none;
     }
 
-    /* main mobile pagina cursos */
+    /* pagina cursos resolucion 70px */
     .main__cursos {
         width: 100vw;
         height: fit-content;
@@ -432,7 +432,7 @@ html body a {
         margin: 20px;
     }
 
-    /* main mobile */
+    /* pagina index 330px */
     main {
         height: fit-content;
         width: 100%;
@@ -512,7 +512,7 @@ html body a {
         text-decoration: none;
     }
 
-    /* pagina cursos */
+    /* pagina cursos resolucion 330px */
     .main__cursos {
         width: 100vw;
         height: fit-content;
@@ -732,7 +732,7 @@ html body a {
         margin: 2vw;
     }
 
-    /* main mobile */
+    /* pagina index resolucion 530px */
     main {
         height: fit-content;
         width: 100%;
@@ -813,7 +813,7 @@ html body a {
         text-decoration: none;
     }
 
-    /* pagina cursos resolucio */
+    /* pagina cursos resolucion 530px */
     .main__cursos {
         width: 100vw;
         height: fit-content;
@@ -959,7 +959,7 @@ html body a {
         margin: 15px auto;
     }
 
-    /* footer mobile */
+    /* footer resolucion 530px */
     footer {
         color: red;
         background: rgb(255, 0, 33);
@@ -986,7 +986,7 @@ html body a {
 /* resolucion hasta 768px */
 @media (min-width: 768px) {
 
-    /* grilla de la pagina */
+    /* grilla de la pagina resolucion 768px*/
     .contenedor__body {
         display: grid;
         width: auto;
@@ -998,7 +998,7 @@ html body a {
             "footer"
     }
 
-    /* header */
+    /* header resolucion 768px */
     header {
         background: rgb(255, 0, 0);
         background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(239, 2, 2, 1) 0%, rgba(244, 1, 1, 1) 4%, rgba(29, 16, 16, 1) 53%, rgb(0, 0, 0) 100%);
@@ -1035,7 +1035,7 @@ html body a {
         padding: 3px;
     }
 
-    /* main desktop */
+    /* pagina index resolcuion 768 */
 
     main {
         width: 100%;
@@ -1148,7 +1148,7 @@ html body a {
 
 
 
-    /* pagina cursos resolucion 700px*/
+    /* pagina cursos resolucion 768px*/
     .main__cursos {
         width: 100vw;
         height: fit-content;
@@ -1283,7 +1283,7 @@ html body a {
         height: 150px;
     }
 
-    /* footer desktop*/
+    /* footer desktop resolucion 768px*/
     footer {
         color: red;
         background: rgb(255, 0, 33);
@@ -1356,7 +1356,7 @@ html body a {
         padding: 3px;
     }
 
-    /* main desktop */
+    /* pagina index resolucion 1075px */
 
     main {
         width: 100%;
@@ -1469,7 +1469,7 @@ html body a {
 
 
 
-    /* pagina cursos resolucion 700px*/
+    /* pagina cursos resolucion 1075px*/
     .main__cursos {
         width: 100vw;
         height: fit-content;
@@ -1626,7 +1626,7 @@ html body a {
         height: 150px;
     }
 
-    /* footer desktop*/
+    /* footer desktop resolucion 1075px*/
     footer {
         color: red;
         background: rgb(255, 0, 33);
