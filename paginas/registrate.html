@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles3.css">
+    <title>TecnoSHOP</title>
+</head>
+
+<body>
+    <div class="grilla__contenedora">
+        <header class="header__registrate">
+            <nav class="navbar">
+                <ul class="navbar__lista">
+                    <li class="navbar__elemento"><a class="navbar__A" href="./noticias.html">NOTICIAS</a>
+                    <li class="navbar__elemento"><a class="navbar__A" href="cursos.html">CURSOS</a></li>
+                    <li class="navbar__elemento"><a class="navbar__A" href="../index.html"><strong>HOME</strong></a>
+                    </li>
+                    <li class="navbar__elemento"><a class="navbar__A" href="./productos.html">PRODUCTOS</a></li>
+                    <li class="navbar__elemento"><a class="navbar__A" href="./ingresar.html">INGRESAR</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="mainRegistrate">
+            <div class="headerDiv"></div>
+            <section class="contenedorRegistrate">
+                <h2 class="registrate__titulo"><a class="registrate__tituloRedirecion"
+                        href="#nombre-registro">Registrate</a></h2>
+                <form class="formulario__registrate">
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="nombre-registro">Nombre</label>
+                        <input class="formulario__registrateInput" type="text" required placeholder="nombre"
+                            id="nombre-registro">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="apellido-registro">Apellido</label>
+                        <input class="formulario__registrateInput" type="text" required placeholder="apellido"
+                            id="apellido-registro">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="contraseña-registro">Contraseña</label>
+                        <input class="formulario__registrateInput" type="password" required placeholder="contraseña"
+                            id="contraseña-registro">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="mail-registro">Mail</label>
+                        <input class="formulario__registrateInput" type="email" required placeholder="mail"
+                            id="mail-registro">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="fecha-nacimiento">Fecha de macimiento</label>
+                        <input class="formulario__registrateInput" type="date" required
+                            placeholder="fecha de nacimiento" id="fecha-nacimiento">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="edad-registro">Edad</label>
+                        <input class="formulario__registrateInput" type="number" required placeholder="Edad"
+                            id="edad-registro">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="genero-registro">Genero</label>
+                        <select class="generoRegistro">
+                            <option class="generoRegistro__mujer">Mujer</option>
+                            <option class="generoRegistro__hombre">Hombre</option>
+                            <option class="generoRegistro__indefinido">Indefinido</option>
+                        </select>
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="envio-noticias">¿Quieres recibir noticias al
+                            instante?</label>
+                        <input class="formulario__registrateInput" type="checkbox" id="envio-noticias">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <span><strong>subcripcion</strong></span>
+                        <label class="formulario__registrateLabel" for="sub-gratuito">subcripcion gratuita</label>
+                        <input class="formulario__registrateInput" type="radio" name="subcripcion" value="gratuito"
+                            id="sub-gratuito">
+                        <label class="formulario__registrateLabel" for="sub-premium">subcripcion premium</label>
+                        <input class="formulario__registrateInput" type="radio" name="subcripcion" value="premium"
+                            id="sub-premium">
+                        <label class="formulario__registrateLabel" for="sin-sub">sin subcripcion</label>
+                        <input class="formulario__registrateInput" type="radio" name="subcripcion"
+                            value="sin-subcripcion" id="sin-sub">
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="mensaje-textarea">mensaje</label>
+                        <textarea
+                            id="mensaje-textarea">este mensaje va dirijido a todos aquellos fanaticos de la programacion  de las compuadoras</textarea>
+                    </div>
+                    <div class="formulario__registrateContenedor">
+                        <label class="formulario__registrateLabel" for="enviar-registro">boton enviar</label>
+                        <input class="formulario__registrateInput" type="submit" id="enviar-registro">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer__seguinos">
+                <h5 class="footer__seguinosTitulo">Seguinos</h5>
+                <ul>
+                    <div class="footer__seguinosImgIg"></div>
+                    <li><A class="footer__seguinosEtiquetas" href="https://www.instagram.com/"
+                            target="_blank">@tecno_shop</A></li>
+                    <div class="footer__seguinosImgFace"></div>
+                    <li><A class="footer__seguinosEtiqueta" href="https://es-la.facebook.com/"
+                            target="_blank">tecnoshopoficial</A></li>
+                </ul>
+            </section>
+            <section class="footer__contacto">
+                <h5 class="footer__cotactoTitulo">contacto</h5>
+                <ul>
+                    <div class="footer__contactoImgWpp"></div>
+                    <li class="footer__contactoNumero">+54 2996091284</li>
+                    <div class="footer_contactoImgGmail"></div>
+                    <li class="footer__cotactoGmal">tecnoshop@gmail.com</li>
+                </ul>
+            </section>
+            <section class="footer__informacion">
+                <h5 class="footer__infotmacionTitulo">Información</h5>
+                <ul>
+                    <div class="footer__informacionImgEnvio"></div>
+                    <li class="footer__informacionEnvio">Envios sin cargo</li>
+                    <div class="footer__informacionImgLugar"></div>
+                    <li><a class="footer__informacionLugar"
+                            href="https://www.google.com/maps/place/San+Patricio+del+Cha%C3%B1ar,+Neuqu%C3%A9n/@-38.6314981,-68.305745,15z/data=!3m1!4b1!4m5!3m4!1s0x960ba8e82859e9b9:0x7ffa46fd8cb4d14e!8m2!3d-38.6333536!4d-68.2951738"
+                            target="_blank">San Patricio Del Chañar-Neuquen</a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+
+</body>
+
+</html>
